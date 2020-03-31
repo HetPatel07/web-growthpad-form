@@ -49,4 +49,12 @@ form {
     font-weight: 600;
     color: #fff;
     background-color: #77C360;
+    border: 2px solid #77C360;
+    transition: .3s all;
+}
+
+.loginBtn:hover {
+    transition: .3s all;
+    color: #77C360;
+    background-color: #fff;
 }
