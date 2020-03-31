@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+}
+
+form {
+    background-color: #ffff;
+    padding: 40px 30px;
+    box-shadow: 9px 3px 20px 0px lightgrey;
+}
+
+.form-control {
+    background-color: #f9f9f9;
+    border: none;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.form-group a {
+    color: #495057;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-group a:hover {
+    color: #77C360;
+}
+
+.logo {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    width: 130px;
+}
+
+.form-heading h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.loginBtn {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #77C360;
+}
