@@ -24,18 +24,29 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-md-6 col-12">
-                    <form action="" class="position-relative">
+                    <form action="" method="POST" class="position-relative" id="form">
                         <div class="logo position-absolute">
                             <img src="images/Growthpad Icon.png" alt="">
                         </div>
                         <div class="form-heading pt-5 text-center">
                             <h4>Log in</h4>
                         </div>
-                        <div class="form-group ">
-                            <input type="text" class="form-control p-4 rounded-pill" id="formGroupExampleInput" placeholder="Email, Phone Number, Username">
+                        <div class="form-group position-relative">
+                            <input type="text" class="form-control p-4 rounded-pill" placeholder="Email, Phone Number, Username" id="email">
+
+
+                            <span class="px-3 position-absolute rounded-lg" class="errorMsg">This Field cant be empty <i class="fas fa-caret-up"></i></span>
+
+                            <i class="fa fa-exclamation-circle position-absolute  py-3 wrong" aria-hidden="true"></i>
                         </div>
-                        <div class="form-group ">
-                            <input type="password" class="form-control p-4 rounded-pill" id="formGroupExampleInput" placeholder="Password">
+                        <div class="form-group position-relative">
+                            <input type="password" class="form-control p-4 rounded-pill" placeholder="Password" id="pass">
+
+                            <!-- <span class="px-3 position-absolute" class="errorMsg">Required <i class="fa fa-exclamation-circle p-3  wrong" aria-hidden="true">
+                            </i></span> -->
+                            <span class="px-3 position-absolute rounded-lg" class="errorMsg">This Field cant be empty <i class="fas fa-caret-up"></i></span>
+
+                            <i class="fa fa-exclamation-circle position-absolute  py-3 wrong" aria-hidden="true"></i>
                         </div>
 
                         <div class="form-group text-center">
@@ -43,7 +54,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="button" value="Login" class="loginBtn w-100 rounded-pill">
+                            <input type="submit" value="Login" class="loginBtn w-100 rounded-pill">
                         </div>
                     </form>
                 </div>
@@ -61,6 +72,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>

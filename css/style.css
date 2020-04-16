@@ -27,6 +27,66 @@ form {
     color: #77C360;
 }
 
+.form-group.error i.wrong {
+    visibility: visible;
+    cursor: pointer;
+    transition: .1s all;
+    top: 0;
+    right: 20px;
+    color: red;
+}
+
+.form-group i {
+    font-size: 18px;
+    visibility: hidden;
+}
+
+.form-group.error input {
+    /* border-color: red; */
+    border: 2px solid red;
+    transition: .1s all;
+}
+
+.form-group.success input {
+    /* border-color: red; */
+    border: 2px solid lightgreen;
+    transition: .1s all;
+}
+
+.form-group.error input:focus {
+    box-shadow: 0 0 0 0 white;
+}
+
+.form-group span {
+    bottom: -50px;
+    z-index: 11;
+    right: 0;
+    color: #fff;
+    visibility: hidden;
+    background-color: red;
+    border: 1px solid red;
+    transition: .3s all;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.form-group span i {
+    position: absolute;
+    font-size: 30px;
+    top: -15px;
+    right: 20px;
+    color: red;
+}
+
+.form-group span:hover {
+    transition: .3s all;
+}
+
+.form-group span.visible {
+    visibility: visible;
+}
+
 .logo {
     left: 50%;
     top: 0;
