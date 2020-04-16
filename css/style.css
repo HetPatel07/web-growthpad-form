@@ -36,9 +36,12 @@ form {
     color: red;
 }
 
+.form-group i.wrong {
+    visibility: hidden;
+}
+
 .form-group i {
     font-size: 18px;
-    visibility: hidden;
 }
 
 .form-group.error input {
